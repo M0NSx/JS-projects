@@ -12,3 +12,4 @@ const deposit = () => {
             return numberdepositAmount;
         }
     }
+};
