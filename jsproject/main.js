@@ -15,3 +15,4 @@ const deposit = () => {
 };
 
 const getNumberOfLines = () => {
+    while (true) {
