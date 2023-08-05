@@ -7,3 +7,4 @@ const deposit = () => {
 
         if (isNaN(numberdepositAmount) || numberdepositAmount <= 0) {
             console.log('Invalid deposit number, try again... ');
+        }
