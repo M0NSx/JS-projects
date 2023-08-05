@@ -4,3 +4,5 @@ const deposit = () => {
     while (true) {
         const depositAmount = prompt('Insert a deposit amount: ');
         const numberdepositAmount = parseFloat(depositAmount);
+
+        if (isNaN(numberdepositAmount) || numberdepositAmount <= 0) {
