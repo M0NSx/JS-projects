@@ -9,3 +9,4 @@ const deposit = () => {
             console.log('Invalid deposit number, try again... ');
         }
         else {
+            return numberdepositAmount;
