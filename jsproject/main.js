@@ -6,3 +6,4 @@ const deposit = () => {
         const numberdepositAmount = parseFloat(depositAmount);
 
         if (isNaN(numberdepositAmount) || numberdepositAmount <= 0) {
+            console.log('Invalid deposit number, try again... ');
