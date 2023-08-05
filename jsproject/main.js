@@ -20,3 +20,14 @@ const getNumberOfLines = () => {
         const numberOfLines = parseFloat(lines);
         if (isNaN(numberOfLines) || numberOfLines <= 0 || numberOfLines > 3) {
             console.log('Invalid number of lines, try again... ');
+        }
+        else {
+            return numberOfLines;
+        }
+    }
+};
+
+let depositAmount = deposit();
+console.log(depositAmount)
+const numberOfLines = getNumberOfLines();
+console.log(numberOfLines)
