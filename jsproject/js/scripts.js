@@ -27,3 +27,5 @@ const saveTodo = (Text) => {
     editBtn.classList.add("edit-todo")
     editBtn.innerHTML = '<i class="fa-solid fa-pen"></i>'
     todo.appendChild(editBtn);
+
+    const removeBtn = document.createElement("button")
