@@ -24,3 +24,4 @@ const saveTodo = (Text) => {
     todo.appendChild(doneBtn);
 
     const editBtn = document.createElement("button")
+    editBtn.classList.add("edit-todo")
