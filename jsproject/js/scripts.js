@@ -12,3 +12,4 @@ let oldInputValue;
 const saveTodo = (Text) => {
 
     const todo = document.createElement("div")
+    todo.classList.add("todo")
