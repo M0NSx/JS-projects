@@ -17,3 +17,5 @@ const saveTodo = (Text) => {
     const todoTitle = document.createElement("h3")
     todoTitle.innerText = Text;
     todo.appendChild(todoTitle);
+
+    const doneBtn = document.createElement("button")
