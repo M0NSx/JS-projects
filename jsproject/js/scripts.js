@@ -38,3 +38,5 @@ const saveTodo = (Text) => {
     todoInput.value = "";
     todoInput.focus();
 };
+
+const toggleForms = () => {
