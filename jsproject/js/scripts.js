@@ -7,3 +7,6 @@ const editInput = document.querySelector("#edit-input");
 const cancelEditButton = document.querySelector("#cancel-edit-btn");
 
 let oldInputValue;
+
+// Functions
+const saveTodo = (Text) => {
