@@ -21,3 +21,4 @@ const saveTodo = (Text) => {
     const doneBtn = document.createElement("button")
     doneBtn.classList.add("finish-todo")
     doneBtn.innerHTML = '<i class="fa-solid fa-check"></i>'
+    todo.appendChild(doneBtn);
