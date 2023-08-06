@@ -34,3 +34,5 @@ const saveTodo = (Text) => {
     todo.appendChild(removeBtn);
 
     todoList.appendChild(todo);
+
+    todoInput.value = "";
