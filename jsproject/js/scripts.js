@@ -10,3 +10,5 @@ let oldInputValue;
 
 // Functions
 const saveTodo = (Text) => {
+
+    const todo = document.createElement("div")
