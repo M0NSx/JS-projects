@@ -33,3 +33,13 @@ button:hover {
 button:hover > i {
     color: black;
 }
+
+button i {
+    color: rgba(14, 192, 82, 0.747);
+    font-weight: bold;
+    pointer-events: none;
+}
+
+input, select {
+    padding: 0.25rem 0.5rem;
+}
