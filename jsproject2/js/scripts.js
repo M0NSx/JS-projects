@@ -82,5 +82,7 @@ document.addEventListener("click", (e) => {
 
     if (parentEL && parentEL.querySelector("h3")) {
         todoTitle = parentEL.querySelector("h3").innerText;
+    }
 
+    if (targetEL.classList.contains("finish-todo")) {
 }
