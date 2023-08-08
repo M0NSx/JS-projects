@@ -40,6 +40,9 @@ const saveTodo = (text) => {
 
 }
 
+const toggleForms = () => {
+
+
 /* Events */
 todoForm.addEventListener("submit", (e) => {
 
