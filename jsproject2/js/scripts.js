@@ -96,5 +96,6 @@ document.addEventListener("click", (e) => {
         toggleForms();
 
         editInput.value = todoTitle;
-
-}
+        oldInputValue = todoTitle;
+    }
+});
