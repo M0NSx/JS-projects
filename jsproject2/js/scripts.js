@@ -50,6 +50,8 @@ const updateTodo = (text) => {
 
     const todos = document.querySelectorAll(".todo");
 
+    todos.forEach((todo) => {
+    
 /* Events */
 todoForm.addEventListener("submit", (e) => {
 
