@@ -90,5 +90,7 @@ document.addEventListener("click", (e) => {
 
     if (targetEL.classList.contains("remove-todo")) {
         parentEL.remove();
+    }
 
+    if (targetEL.classList.contains("edit-todo")) {
 }
