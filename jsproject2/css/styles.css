@@ -62,3 +62,14 @@ input, select {
     padding: 0 1rem 1rem;
     border-bottom: 1px solid #ccc;
 }
+
+/* To do Forms */
+#todo-form, #edit-form {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+#todo-form p, #edit-form p {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
