@@ -93,4 +93,6 @@ document.addEventListener("click", (e) => {
     }
 
     if (targetEL.classList.contains("edit-todo")) {
+        toggleForms();
+
 }
