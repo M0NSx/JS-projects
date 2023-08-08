@@ -51,7 +51,9 @@ const updateTodo = (text) => {
     const todos = document.querySelectorAll(".todo");
 
     todos.forEach((todo) => {
-    
+
+        let todoTitle = todo.querySelector("h3");
+
 /* Events */
 todoForm.addEventListener("submit", (e) => {
 
