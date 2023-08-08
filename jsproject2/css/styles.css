@@ -24,3 +24,12 @@ button {
     align-items: center;
     transition: 0.4s;
 }
+
+button:hover {
+    background-color: rgba(14, 192, 82, 0.747);
+    color: black;
+}
+
+button:hover > i {
+    color: black;
+}
