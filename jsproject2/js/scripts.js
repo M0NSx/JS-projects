@@ -46,6 +46,9 @@ const toggleForms = () => {
     todoList.classList.toggle("hide");
 };
 
+const updateTodo = (text) => {
+
+    const todos = document.querySelectorAll(".todo");
 
 /* Events */
 todoForm.addEventListener("submit", (e) => {
