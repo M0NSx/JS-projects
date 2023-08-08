@@ -86,5 +86,7 @@ document.addEventListener("click", (e) => {
 
     if (targetEL.classList.contains("finish-todo")) {
         parentEL.classList.toggle("done");
+    }
 
+    if (targetEL.classList.contains("remove-todo")) {
 }
