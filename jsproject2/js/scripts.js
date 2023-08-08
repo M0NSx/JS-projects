@@ -54,6 +54,8 @@ const updateTodo = (text) => {
 
         let todoTitle = todo.querySelector("h3");
 
+        console.log(todoTitle, text);
+
 /* Events */
 todoForm.addEventListener("submit", (e) => {
 
