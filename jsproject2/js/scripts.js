@@ -78,3 +78,4 @@ document.addEventListener("click", (e) => {
     
     const targetEL = e.target;
     const parentEL = targetEL.closest("div");
+    let todoTitle;
