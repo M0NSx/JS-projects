@@ -56,6 +56,8 @@ const updateTodo = (text) => {
 
         console.log(todoTitle, text);
 
+        if (todoTitle.innerText === oldInputValue) {
+
 /* Events */
 todoForm.addEventListener("submit", (e) => {
 
