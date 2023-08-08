@@ -81,5 +81,6 @@ document.addEventListener("click", (e) => {
     let todoTitle;
 
     if (parentEL && parentEL.querySelector("h3")) {
+        todoTitle = parentEL.querySelector("h3").innerText;
 
 }
