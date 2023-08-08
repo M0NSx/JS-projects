@@ -72,5 +72,6 @@ todoForm.addEventListener("submit", (e) => {
     if (inputValue) {
         saveTodo(inputValue)
     }
-
 })
+
+document.addEventListener("click", (e) => {
