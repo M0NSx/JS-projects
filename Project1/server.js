@@ -7,3 +7,5 @@ const app = express()
 const expressLayouts = require('express-ejs-layouts')
 
 const indexRouter = require('./routes/index')
+
+app.set('view engine', 'ejs')
