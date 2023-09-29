@@ -17,3 +17,6 @@
     align-items: center;
     backdrop-filter: blur(7px);
 }
+
+section {
+    display: flex;
