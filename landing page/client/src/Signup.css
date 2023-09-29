@@ -31,3 +31,9 @@ h2 {
     color: black;
     font-weight: 600;
 }
+
+.input-box {
+    position: relative;
+    width: 310px;
+    margin: 30px 0;
+}
