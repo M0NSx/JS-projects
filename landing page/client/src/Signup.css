@@ -37,3 +37,7 @@ h2 {
     width: 310px;
     margin: 30px 0;
 }
+
+.input-box label {
+    position: absolute;
+    top: 50%;
