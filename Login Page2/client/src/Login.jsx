@@ -9,3 +9,4 @@ import axios from 'axios'
 function Signup() {
 
     const [nickname, setNickname] = useState()
+    const [email, setEmail] = useState()
