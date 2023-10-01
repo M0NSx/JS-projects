@@ -62,7 +62,7 @@ function Signup() {
                                         Remember me
                                     </span>
                             </div>
-                            <a>Already Have an account?</a>
+                            <Link to='/login'>Already Have an account?</Link>
                         </div>
                         <button className='btn btn-primary'>Create</button>
                     </form>
