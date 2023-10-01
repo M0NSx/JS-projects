@@ -5,3 +5,7 @@ import ImageL from './img/Site-logo.png';
 import ImageBG from './img/BF-BG2.png';
 import { Link } from 'react-router-dom';
 import axios from 'axios'
+
+function Signup() {
+
+    const [nickname, setNickname] = useState()
