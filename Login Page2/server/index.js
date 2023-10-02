@@ -28,3 +28,11 @@ app.post('/login', (req, res) => {
 app.post('/register', (req, res) => {
     UsersModel.create(req.body)
     .then(users => res.json(users))
+    .catch(error => res.json(error))
+})
+
+
+
+app.listen(3001, () => {
+    console.log('Server is running')
+})
