@@ -14,3 +14,4 @@ app.post('/login', (req, res) => {
     UsersModel.findOne({email: email})
     .then(user => {
         if(user) {
+            if(user.password === password) {
