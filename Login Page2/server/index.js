@@ -15,3 +15,4 @@ app.post('/login', (req, res) => {
     .then(user => {
         if(user) {
             if(user.password === password) {
+                res.json("Success")
