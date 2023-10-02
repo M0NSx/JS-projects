@@ -13,3 +13,4 @@ app.post('/login', (req, res) => {
     const {email, password} = req.body;
     UsersModel.findOne({email: email})
     .then(user => {
+        if(user) {
