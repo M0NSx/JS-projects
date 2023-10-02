@@ -27,3 +27,4 @@ app.post('/login', (req, res) => {
 
 app.post('/register', (req, res) => {
     UsersModel.create(req.body)
+    .then(users => res.json(users))
